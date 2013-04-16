@@ -1,11 +1,9 @@
 
 h1. Michael Scharf
 
-!MichaelScharf2.jpg! 
+!MichaelScharf.jpg! 
 
 Born 25-APR-1961 in Heidelberg, Germany, married since '82, one daughter (born '86).
-
-I decided to write my life in chronolocigal order and not in reverse. English is not my native language and I am slightly dislexic, so there might be parts of the text that are hard to understand....
 
 h2. The beginning of my career -- why Physics?
 
@@ -125,8 +123,7 @@ Because what we do as developers has an impact on humans, I have a strong intere
 
 I am not a good decision maker and I don't know how good I would be as leader of a team. But I know that my power unfolds when I am part of a team and I am in direct contact with the team members in an open communication. My interest is to understand a system as a whole and to understand and share the common vision of the team. 
 
-Ultimately what we do is for our customers and therefore understanding the needs and pains of the customers is key. But often great solutions do not come from customer requests but form individuals and teams with a vision and empathy for the customers. Mylyn is a great example of that and I want to be part of a team that can make a difference :-)
-
+Ultimately what we do is for our customers and therefore understanding the needs and pains of the customers is key. But often great solutions do not come from customer requests but form individuals and teams with a vision and empathy for the customers. 
 
 h2. References
 
