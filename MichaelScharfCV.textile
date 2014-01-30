@@ -3,11 +3,11 @@ h1. Michael Scharf
 
 !MichaelScharf.jpg! 
 
-Born 25-APR-1961 in Heidelberg, Germany, married since '82, one daughter (born '86).
+Born 25-Apr-1961 in Heidelberg, Germany, married since '82, one daughter (born '86).
 
 h2. The beginning of my career -- why Physics?
 
-I have a diploma in physics form the University of Heidelberg and a passion for computing since I am 15. The reason I studied physics (starting '81) and not computer science was that I had such a strong interest in computing that I thought I would learn it anyway. Physics was interesting because of its focus on fundamental principles and I hoped it would learn scientific thinking. I have always been fascinated by the fact that our existence is based on a few "simple" and elegant laws. The urge to reduce complex system to a set of simple and composable parts has always been a driving force in my life.
+I have a diploma in physics form the University of Heidelberg and a passion for computing since I am 15. The reason I studied physics (starting '81) and not computer science was that I had such a strong interest in computing that I thought I would learn it anyway. Physics was interesting because of its focus on fundamental principles and I hoped I would learn scientific thinking. I have always been fascinated by the fact that our existence is based on a few "simple" and elegant laws. The urge to reduce complex system to a set of simple and composable parts has always been a driving force in my life.
 
 h2. 1986-1995 Computational Biology
 
@@ -19,7 +19,7 @@ During my time at EMBL I had a lot of freedom to experiment and explore new idea
 
 h3. ET++ and Erich Gamma
 
-Around 1987-1988 I discovered on the internet a C++ UI library called ET++[1], which was written By Erich Gamma[2] and André Weinand (if you have read Erichs design pattern book, you'll find ET++ examples for most of the patterns). I used ET++ as the basis for a lot of tools I wrote for visualization and analysis of molecular biological data. Since I had access to Erichs PhD thesis and early drafts of the book, I became an evangelist of design patterns and that way of thinking. I would sill say Erichs work has a fundamental impact on the way I look at software and the way I design systems. 
+Around 1987-1988 I discovered on the internet a C++ UI library called ET++[1], which was written By Erich Gamma[2] and Andre Weinand (if you have read Erichs design pattern book, you'll find ET++ examples for most of the patterns). I used ET++ as the basis for a lot of tools I wrote for visualization and analysis of molecular biological data. Since I had access to Erichs PhD thesis and early drafts of the book, I became an evangelist of design patterns and that way of thinking. I would sill say Erichs work has a fundamental impact on the way I look at software and the way I design systems. 
 
 h3. Projects in work in a science context 
 
@@ -47,13 +47,13 @@ h3. Collaboration as contractor working form a home office
 
 Initially I did some classical contracting work (like enhancing the editor). I also did customer training on the product as well as on programming C++, python and on design patterns.
 
-Over time I slipped more into the role of the lead developer. That was quite interesting, because I was the only one working remotely. I was visiting the office regularly for 3-4 days every 4-6 weeks. When I was there we had a lot of discussions and design sessions. I had lots of one-on-one sessions when I was in the office, and I often knew best who worked on what and who should talk to whom much better than the locals. Quite often, when I visited the office next time, the white board was in the state I left it last time. I learned that working in one office is not sufficient to have good collaborations.
+Over time I slipped more into the role of the lead developer. That was quite interesting, because I was the only one working remotely. I was visiting the office regularly for 3-4 days every 4-6 weeks. When I was there we had a lot of discussions and design sessions. I had lots of one-on-one sessions when I was in the office, and I often knew better than the "locals" who worked on what and who should talk to whom. Quite often, when I visited the office next time, the white board was in the state I left it last time. I learned that working in one office is not sufficient to have good collaborations.
 
-When I was at home I did implementation work on the SNiFF+ project. But I also did exploration work, trying out new ideas and finding solutions or generalizations for problems that I have seen. Although lot of my code went directly into the product, I preferred to work outside the current product stream to do forward looking, next-generation-of-the-product work. Many of the ideas and experiments I made failed. But lots of good ideas emerged. In many cases nobody asked me to look into a specific problem, but I used my senses to find areas where I could make a difference, where I could create something that would add value for customers or something would enhance the internal development.  
+When I was in my home-office I did implementation work on the SNiFF+ project. But I also did exploration work, trying out new ideas and finding solutions or generalizations for problems that I have seen. Although lot of my code went directly into the product, I preferred to work outside the current product stream to do forward looking, next-generation-of-the-product work. Many of the ideas and experiments I made failed. But lots of good ideas emerged. In many cases nobody asked me to look into a specific problem, but I used my senses to find areas where I could make a difference, where I could create something that would add value for customers or something would enhance the internal development.  
 
 h3. Freedom of a consultant
 
-Being outside the day to day work of the team I had a kind of Joker role that gave me some freedom to reflect what we were doing, in terms of technology but also in terms of management and the general direction of the company. I some sense I was acting like an external consultant by being outside of the management structures. I never had the power to make decisions or direct people, but I consulted decision makers and implanted ideas. I worked best when I had a good relationship to a strong decision maker. 
+Being outside the day to day work of the team, I had a kind of Joker role that gave me some freedom to reflect what we were doing in terms of technology, but also in terms of management and the general direction of the company. I some sense I was acting like an external consultant by being outside of the management structures. I never had the power to make decisions or direct people, but I consulted decision makers and implanted ideas and had very good relationships to the developers in the team.
 
 Here are a few things I remember
 
@@ -93,7 +93,7 @@ h3. Some projects I worked on
 * efficient (vt100) terminal emulator for eclipse
 * participated in a lot of the wind river workbench (C/C++ IDE based on eclipse CDT) design and architecture decisions
 * worked on interaction design (Alan Cooper) and how this would make our products better
-* developed the "What do I have to know to do the next step?" methodology for better usability
+* developed the "What do I have to know to do the next step?" methodology for better usability (I should write a blog post on this topic...)
 * educated teams on the benefits of domain driven design (DDD) - a reflection on specific challenges when writing tools for software developers...
 * coaching and training of developers (by closely working together) - especially in model driven design
 
@@ -112,6 +112,11 @@ On the technical side, I was responsible for java part and the (eclipse based) v
 * template based configurable UI with DSL in Xtext with data binding to IValue which was (partly) driven by the incoming (meta) data
 * code generator for several data aggregators that created C-code and virtual machine code
 * extensible parser framework for a set of textual DSLs - allowed to plug in sub parsers in other DSLs
+
+h2. Since Spring 2013: The Adventures of Web Development for a Very Small Startup-Company
+
+Early 2013 it was time to leave Wind River and to go back to the roots of working on a start-up project. This is a web application with a back-end in python and elastic search (which is java). The front end uses angularjs. This involved a lot of learning new technologies. Because I am currently the main developer on this project, I have to work on all aspects of the project, including UI design, server setup, build process, bug fixing etc. It is a very humbling experience to see all the little details necessary to create a product. I have a much better understanding of the struggle of web developers and I see lots of opportunities how better tooling, libraries and services can can support developers.
+
 
 h2. Conclusions
 
