@@ -34,14 +34,14 @@ etc) and it was very exciting to have open discussions with people
 with a wide range of experiences, views and insights. **I learned how
 important collaboration and communication is, but also how important
 exploration and trial and error is.** I contributed lots of ideas,
-**my boss often said "Michael creates many crazy ideas but one out of
+**my boss [Chris Sander] often said "Michael creates many crazy ideas but one out of
 three is actually good".**
 
 ### ET++ and Erich Gamma
 
 Around 1987-1988 I discovered on the internet a **C++ UI library
-called ET++[1]**, which was written By Erich Gamma[2] and Andre
-Weinand (if you have read Erichs design pattern book[3], you'll find
+called [ET++]**, which was written By [Erich Gamma] and Andre
+Weinand (if you have read Erichs design pattern book ([GOF]), you'll find
 ET++ examples for most of the patterns). I used ET++ as the basis for
 a lot of tools I wrote for visualization and analysis of molecular
 biological data. Since I had access to Erichs PhD thesis and early
@@ -142,7 +142,8 @@ Here are a few things I remember
   enabled a lot of extensions to SNiFF+ (mostly done by services)
 * data driven tree-table implementation -- reduced time writing
   of a new tools form months to days
-* OQL expression for (JSON like) data and tree/table filtering
+* [OQL] expression for (JSON like) data 
+  and tree/table filtering
 * OQL implementation in python (never used in a product)
 * python debugger with gdb like interface
 * a distributed CORBA based implementation of the IDE (failed)
@@ -154,7 +155,7 @@ Here are a few things I remember
   workflows and creating product enhancements
 
 
-##2000-2009 Contractor at Wind River
+## 2000-2009 Contractor at Wind River
 
 We (the TakeFive) team started creating an the *next generation SNiFF+
 IDE written in Java* based on the learnings form the last years. Around
@@ -163,8 +164,7 @@ started by merging teams form different companies into one team. Wind
 River had four or five different IDEs with very different design
 philosophies. It turned out to be very difficult, if not impossible,
 to merge "the best" of different cultures into a single system. The
-company finally decided to move eclipse (which I was favoring). The
-company finally decided to go with eclipse[4]
+company finally decided to use eclipse (which I was favoring). 
 
 **One key learning for me was that mixing different frameworks and
 styles can lead to more complex systems - it might be better to use
@@ -224,7 +224,7 @@ Michael a problem to solve and he will find and solve a more general
 problem."** (not sure if this is good or bad, but it reflects some truth
 about me)
 
-##2009-2013 Employed as Principal Technologist at Wind River
+## 2009-2013 Employed as Principal Technologist at Wind River
 
 Early 2009 I decided it is time to become an employee and **I became a
 member of the CTO office** reporting to the CTO (Tomas Evensen). I spend
@@ -307,14 +307,16 @@ the needs and pains of the customers is key. But often great solutions
 do not come from customer requests but form individuals and teams with
 a vision and empathy for the customers.
 
-##References
+-----
 
-[1]: http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1A25D3F9BFB6E7EAC01C26E0ED656955?doi=10.1.1.33.4786 "Design and Implementation of ET++, a Seamless Object-Oriented Application Framework"
+[Chris Sander]: https://en.wikipedia.org/wiki/Chris_Sander_(scientist)
 
-[2]: http://www.zdnet.com/blog/burnette/erich-gamma-a-pattern-of-success/134 "Erich Gamma: A pattern of success"
+[ET++]: http://citeseerx.ist.psu.edu/viewdoc/summary;jsessionid=1A25D3F9BFB6E7EAC01C26E0ED656955?doi=10.1.1.33.4786 "Design and Implementation of ET++, a Seamless Object-Oriented Application Framework"
 
-[3]: http://books.google.de/books/about/Design_Patterns.html?id=iyIvGGp2550C&redir_esc=y "Ralph Johnson, Erich Gamma, John Vlissides, Richard Helm: Design Patterns: Elements of Reusable Object-Oriented Software"
+[Erich Gamma]: http://www.zdnet.com/blog/burnette/erich-gamma-a-pattern-of-success/134 "Erich Gamma: A pattern of success"
 
-[4]: http://eclipse.org
+[GOF]: http://books.google.de/books/about/Design_Patterns.html?id=iyIvGGp2550C&redir_esc=y "Ralph Johnson, Erich Gamma, John Vlissides, Richard Helm: Design Patterns: Elements of Reusable Object-Oriented Software"
+
+[OQL]: http://www.cs.cornell.edu/home/ulfar/oodbms/ooqlang.html
 
 [Eclipse Modeling Framework]: http://www.eclipse.org/modeling/emf/
