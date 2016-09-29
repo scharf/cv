@@ -21,14 +21,14 @@ life.
 ##1986-1995 Computational Biology
 
 From 1986-1995 I worked in the field of computational molecular
-biology at EMBL (European Lab for Molecular Biology).  The first 3.5
+biology at EMBL (European Lab for Molecular Biology). The first 3.5
 years I worked on my diploma thesis on protein structure prediction
 form protein sequences.  Then worked as scientific assistant.
 
 ### Years of exploration
 
 During my time at EMBL I had a lot of freedom to experiment and
-explore new ideas and technologies.  The team was interdisciplinary
+explore new ideas and technologies. The team was interdisciplinary
 (biologists, chemists, physicists, mathematicians, computer scientists
 etc) and it was very exciting to have open discussions with people
 with a wide range of experiences, views and insights. **I learned how
@@ -62,7 +62,7 @@ retrospect is telling something about me....
   thesis)
 * a very efficient object oriented implementation of a
   subset of Iris GL (which is the basis of OpenGL) in
-  C for X-windows
+  C for X-Windows
 * 2d plotting (scatter plot) framework with direct links
   to data tables to show multidimensional data based on
   ET++ (was revolutionary in the 80ies)
@@ -71,7 +71,7 @@ retrospect is telling something about me....
   running on dedicated hardware
 * fast algorithm to compare lots of (protein) sequences
 * improved fastest existing algorithm for protein surface
-  calculation by a factor of 10
+  calculation by a factor of 10+
 * a plotting "program" in postscript that scientists
   could appended to their data files and that printed
   nice graphs and plots
@@ -104,8 +104,8 @@ programming C++, python and on design patterns.**
 Over time **I slipped more into the role of the lead developer.** That
 was quite interesting, because **I was the only team member working
 remotely**. I was visiting the office regularly for 3-4 days every 4-6
-weeks. When I was there we had a lot of discussions and design
-sessions. I had lots of one-on-one sessions when I was in the office,
+weeks. When I was there we had a lot of discussions on design and 
+architecture. I had lots of one-on-one sessions when I was in the office,
 and I often knew better than the "locals" who worked on what and who
 should talk to whom. Quite often, when I visited the office next time,
 the white board was in the state I left it last time. **I learned that
@@ -126,19 +126,20 @@ enhance the internal development.
 ### Freedom of a consultant
 
 Being outside the day to day work of the team, I had a kind of Joker
-role that gave me some freedom to reflect what we were doing in terms
-of technology, but also in terms of management and the general direction
-of the company. **As a consultant, I never had the power to make
+role that gave me some freedom to reflect on what we were doing in terms
+of technology and architecture, but also in terms of management and the general direction
+of the company. **As a consultant, I never had the official power to make
 decisions or direct people, but I gave advice to decision makers and
 implanted ideas and had very good relationships to the developers
 in the team.**
 
-Here are a few things I remember
+Here are a few things I remember. The items in the list I designed, and did 
+most of the implementation.
 
-* declarative, context based framework for views, command and
+* a declarative, context based framework for views, command and
   menus (a kind of e4 for ET++)
-* DSL and generator for python bindings to ET++ that encoded all
-  the ownership rules of the not-garage collected c++-code -- this
+* a DSL (domain specific language) and generator for python bindings to ET++ that encoded all
+  the ownership rules of the not-garage collected C++-code -- this
   enabled a lot of extensions to SNiFF+ (mostly done by services)
 * data driven tree-table implementation -- reduced time writing
   of a new tools form months to days
@@ -154,14 +155,13 @@ Here are a few things I remember
 * lots of product contributions and enhancements including designing
   workflows and creating product enhancements
 
-
 ## 2000-2009 Contractor at Wind River
 
 We (the TakeFive) team started creating an the *next generation SNiFF+
 IDE written in Java* based on the learnings form the last years. Around
 that time, TakeFive got acquired by Wind River and a cultural change
 started by merging teams form different companies into one team. Wind
-River had four or five different IDEs with very different design
+River had (by acquisitions)five different IDEs with very different design
 philosophies. It turned out to be very difficult, if not impossible,
 to merge "the best" of different cultures into a single system. The
 company finally decided to use eclipse (which I was favoring). 
@@ -175,7 +175,7 @@ way of doing things (e.g. everything is a plug-in).
 ### Member of the Wind River architect team
 
 **I became member of the Wind River cross-project architecture team.** One
-of the goals was of the architect team was to **cross-pollinate ideas
+of the goals of the architect team was to **cross-pollinate ideas
 between different teams and to facilitate the communication between
 teams.** There was a tendency for teams to not see the impact of
 decisions for other teams. The IDE had to integrate with tools that
@@ -188,7 +188,7 @@ components.
 
 * wrote a generic reflective editor based on EMF [Eclipse Modeling
   Framework] using annotations. This allowed to replace 150,000 lines
-  hand written C++ code with 3,500 lines of EMF (emfatic).
+  hand written C++ code with 3,500 lines of EMF ([emfatic]).
 * EMF based configuration modeling system which allowed to specify
   composable components (using the reflective editor with dynamic
   EMF models)
@@ -199,7 +199,8 @@ components.
 * created "magic interfaces" a way to declare data structures as
   interfaces that can be bound to different storage formats, like
   IMemento, IConfigurationElement, IPreferenceStore, IDialogSettings ....
-* designed a UI for p2 based product installation application
+* designed a UI for [p2] (the eclipse installation and provisioning technology) 
+  based product installation application
 * column oriented composable table abstraction
 * fixed bugs and enhanced the architecture of one of the java based
   IDE frameworks and became eager to reduce code on each check-in -
@@ -224,10 +225,17 @@ Michael a problem to solve and he will find and solve a more general
 problem."** (not sure if this is good or bad, but it reflects some truth
 about me)
 
+## Since 2005 Member of the Eclipse Architecture Council
+
+2005, I joined the [Eclipse Architecture Council]. I have given
+talks and tutorial (with others) on API design and architecture 
+on several Eclipse related conferences and meetings.
+
 ## 2009-2013 Employed as Principal Technologist at Wind River
 
 Early 2009 I decided it is time to become an employee and **I became a
-member of the CTO office** reporting to the CTO (Tomas Evensen). I spend
+member of the CTO office** reporting to the CTO ([Tomas Evensen]). 
+In addition to the role as architect, I spend
 most of my time on one CTO office project where we created a runtime
 analysis system for embedded systems. Wind River had a set of
 independent analysis tools for different operating systems using
@@ -257,7 +265,7 @@ programming with some of the members of the team.
 * configurable multistage data processing engine
   (interpreter pattern)
 * template based configurable UI with DSL (Domain Specific Language)
-  in Xtext with data binding to IValue which was (partly) driven
+  in [Xtext] with data binding to IValue which was (partly) driven
   by the incoming (meta) data
 * code generator for several data aggregators that created C-code
   and virtual machine code
@@ -267,19 +275,32 @@ programming with some of the members of the team.
 ##Since Spring 2013: The Adventures of Web Development for a Very Small Startup-Company
 
 **Early 2013 it was time to leave Wind River and to go back to the roots
-of working on a start-up project.** I am implementing a web application with a
-back-end in python and elastic search (which is java). The front end
+of working on a start-up project.** 
+
+I started implementing a web application with a
+back-end in python and [elastic search]. The front end
 uses google angularjs. This involved a lot of learning new
-technologies. Because I am currently the main developer on this
-project, I have to work on all aspects of the project, including UI
-design, server setup, build process, bug fixing etc. It is a very
+technologies. Because I was the only developer on this
+project for the first 18 months, I had to work on all aspects of the project, 
+including UI design, server setup, build process, bug fixing etc. It was a very
 humbling experience to see all the little details necessary to create
 a product. I have a much better understanding of the struggle of web
-developers and **I see lots of opportunities how better tooling,
-libraries and services to support web developers.**
+developers and. I see lots of opportunities how better tooling,
+libraries and services to support web developers.
 
+The team has grown to 5 developers and we changed technologies.
+At the moment we are using the [Meteor] framework and replaced
+JavaScript with [TypeScipt].
+
+The key learning here is that web applications require a different
+set of (architectural) rules to be successful. 
 
 ##Conclusions
+
+As physicist, I always try to explain and build system with a minimal
+set of rules and principles. Like nature is based on a few fundamental
+laws of physics, good software can by build and explained by a few
+fundamental architectural rules and patterns.
 
 One thing I have learned is that **creating simple systems is much
 harder than creating complex systems.** Once a simple design has emerged
@@ -287,25 +308,37 @@ it is hard for outsiders to understand how much pain and effort it is
 to reduce the complexity because simple and elegant systems are
 "obvious" once they are there.
 
-**Software development is an inherent complex and social process.** The
-systems we create are a reflection of the organizations and the people
-involved. **Excellent teams develop a set of common principles that are
-consistent and that reduces complexity.** It does not matter too much
-what the principles are as long as they are consistent.
+There is no one size fits it all for architecture and design. Each system has its
+own risks and challenges that have to be addressed by the architecture 
+and frameworks used. To enhance and maintain a good architecture, each
+developer has to understand enough of design and architecture of the 
+system to make decisions that keep the integrity of the system. **Without
+awareness and willingness to invest in architecture, systems very quickly
+degrade and become hard to maintain.**
 
 Because what we do as developers has an impact on humans, I have a
 strong interest in sociology, psychology and the way our sensing our
 perception, our thinking works.
 
-My power unfolds when I am part of a team and I am in direct contact
-with the team members in an open communication. My interest is to
-understand a system as a whole and to understand and share the
-common vision of the team.
+**Software development is an inherent complex and social process.** The
+systems we create are a reflection of the organizations and the people
+involved. **Excellent teams develop a set of common principles that are
+consistent and that reduces complexity.** It does not matter too much
+what the principles are as long as they fit the system and they are 
+consistent.
 
-Ultimately what we do is for our customers and therefore understanding
-the needs and pains of the customers is key. But often great solutions
-do not come from customer requests but form individuals and teams with
-a vision and empathy for the customers.
+My power unfolds when I am part of a team where I am in direct contact
+with the team members in an open communication. My interest is to
+understand a system as a whole and to unfold and share the
+common vision with the team. **Most of my career, I have seem myself as 
+a technical team coach helping teams to discover the
+power and knowledge that enables us to build great systems.**
+
+In order to do that, it is important for me to continue developing
+code myself. I see software development is a [craftsmanship] and
+**my passion is to create well crafted software by a learning community of 
+professionals that is adding value for customers**.
+
 
 -----
 
@@ -315,8 +348,26 @@ a vision and empathy for the customers.
 
 [Erich Gamma]: http://www.zdnet.com/blog/burnette/erich-gamma-a-pattern-of-success/134 "Erich Gamma: A pattern of success"
 
-[GOF]: http://books.google.de/books/about/Design_Patterns.html?id=iyIvGGp2550C&redir_esc=y "Ralph Johnson, Erich Gamma, John Vlissides, Richard Helm: Design Patterns: Elements of Reusable Object-Oriented Software"
+[GOF]: http://books.google.de/books/about/Design_Patterns.html?essenceId=iyIvGGp2550C&redir_esc=y "Ralph Johnson, Erich Gamma, John Vlissides, Richard Helm: Design Patterns: Elements of Reusable Object-Oriented Software"
 
 [OQL]: http://www.cs.cornell.edu/home/ulfar/oodbms/ooqlang.html
 
+[Eclipse Architecture Council]: https://wiki.eclipse.org/Architecture_Council
+
 [Eclipse Modeling Framework]: http://www.eclipse.org/modeling/emf/
+
+[emfatic]: https://wiki.eclipse.org/Emfatic
+
+[p2]: https://www.eclipse.org/equinox/p2/
+
+[Tomas Evensen]:https://www.linkedin.com/in/tomas-evensen-0783341
+
+[Xtext]: https://www.eclipse.org/Xtext/
+
+[elastic search]: https://www.elastic.co
+
+[Meteor]: http://docs.meteor.com/#what-is-meteor
+
+[TypeScipt]: https://en.wikipedia.org/wiki/TypeScript
+
+[craftsmanship]:http://manifesto.softwarecraftsmanship.org
