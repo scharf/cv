@@ -336,7 +336,7 @@ power and knowledge that enables us to build great systems.**
 
 In order to do that, it is important for me to continue developing
 code myself. I see software development is a [craftsmanship] and
-**my passion is to create well crafted software by a learning community of 
+**my passion is to create well crafted software by a learning team of 
 professionals that is adding value for customers**.
 
 
