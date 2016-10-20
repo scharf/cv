@@ -272,25 +272,28 @@ programming with some of the members of the team.
 * extensible parser framework for a set of textual DSLs -
   allowed to plug in sub parsers in other DSLs
 
-##Since Spring 2013: The Adventures of Web Development for a Very Small Startup-Company
+##Since Spring 2013: The Adventures of Web Development for a Startup Project
 
 **Early 2013 it was time to leave Wind River and to go back to the roots
 of working on a start-up project.** 
 
 I started implementing a web application with a
-back-end in python and [elastic search]. The front end
-uses google angularjs. This involved a lot of learning new
-technologies. Because I was the only developer on this
-project for the first 18 months, I had to work on all aspects of the project, 
-including UI design, server setup, build process, bug fixing etc. It was a very
+back-end in python/[Flask] and [elastic search]. The front end
+uses google [Angular 1], [Bootstrap 2]  and [CofeeScript] as the language. 
+This involved a lot of learning new
+technologies. For the first 18 months, I was mostly working alone on the project, 
+I had to work on all aspects of the project, 
+including UI design (I had external some help with CSS), 
+server setup, build process, bug fixing etc. It was a very
 humbling experience to see all the little details necessary to create
 a product. I have a much better understanding of the struggle of web
 developers and. I see lots of opportunities how better tooling,
 libraries and services to support web developers.
 
-The team has grown to 5 developers and we changed technologies.
-At the moment we are using the [Meteor] framework and replaced
-JavaScript with [TypeScipt].
+The team has grown to 4 developers and we changed technologies.
+We switched to [Meteor] + [MongoDb], [React] and [Bootstrap 3] started with Javascript
+but then choose to replace it with [TypeScipt], to be able to better deal
+with changing requirements
 
 The key learning here is that web applications require a different
 set of (architectural) rules to be successful. 
@@ -369,5 +372,19 @@ professionals that is adding value for customers**.
 [Meteor]: http://docs.meteor.com/#what-is-meteor
 
 [TypeScipt]: https://en.wikipedia.org/wiki/TypeScript
+
+[React]: https://facebook.github.io/react/
+
+[Flask]: http://flask.pocoo.org
+
+[MongoDb]: https://www.mongodb.com
+
+[CofeeScript]: http://coffeescript.org
+
+[Angular 1]: https://en.wikipedia.org/wiki/AngularJS#Angular_1
+
+[Bootstrap 2]: http://getbootstrap.com/2.3.2/
+
+[Bootstrap 3]: http://getbootstrap.com
 
 [craftsmanship]:http://manifesto.softwarecraftsmanship.org
