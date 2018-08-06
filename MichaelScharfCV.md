@@ -279,7 +279,7 @@ of working on a start-up project.**
 
 I started implementing a web application with a
 back-end in python/[Flask] and [elastic search]. The front end
-uses google [Angular 1], [Bootstrap 2]  and [CofeeScript] as the language. 
+uses google [Angular 1], [Bootstrap 2] and [CofeeScript] as the language. 
 This involved a lot of learning new
 technologies. For the first 18 months, I was mostly working alone on the project, 
 I had to work on all aspects of the project, 
@@ -339,8 +339,8 @@ power and knowledge that enables us to build great systems.**
 
 In order to do that, it is important for me to continue developing
 code myself. I see software development is a [craftsmanship] and
-**my passion is to create well crafted software by a learning team of 
-professionals that is adding value for customers**.
+**my passion is to create well crafted software with learning teams of 
+professionals to provide the best value for customers**.
 
 
 -----
