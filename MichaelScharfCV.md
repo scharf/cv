@@ -272,7 +272,7 @@ programming with some of the members of the team.
 * extensible parser framework for a set of textual DSLs -
   allowed to plug in sub parsers in other DSLs
 
-##Since Spring 2013: The Adventures of Web Development for a Startup Project
+## Since Spring 2013: The Adventures of Web Development for a Startup Project
 
 **Early 2013 it was time to leave Wind River and to go back to the roots
 of working on a start-up project.** 
@@ -293,12 +293,33 @@ libraries and services to support web developers.
 The team has grown to 4 developers and we changed technologies.
 We switched to [Meteor] + [MongoDb], [React] and [Bootstrap 3] started with Javascript
 but then choose to replace it with [TypeScipt], to be able to better deal
-with changing requirements
+with changing requirements. We also use [mobx] for state management.
 
 The key learning here is that web applications require a different
 set of (architectural) rules to be successful. 
 
-##Conclusions
+## Since early 2017: Java Framework and IDE for dialogs for a database application
+
+Since January 2017 I am consulting (1-2 days a week) a team that has a large Oracle Forms
+application with lots of dialogs. The goal is to modernize the application and 
+re-write the fornt end in Java using the [JVx] UI framework. The Application has hundereds of dialogs and
+the team started writing them one by one using a UI builder that generates
+Java code. In addition all the logic was written in Java. There is one
+additional requirement that makes the hand-written code very complex:
+there is demand for customer specific variants of dialogs.
+
+In order to get more flexibility we designend a DSL to describe the
+layout of the dialogs. The DSL allows to modify aspects of the
+UI similar to css style sheets. We added a rule engine for
+validation and for changing the UI depending on data. We also
+added an IDE to edit the UI directly in the application to
+easily make customer specific dadaptations of the UI (the DSL is 
+interpreted at runtime, so changes do not requiere re-deployment of
+Java code). With this approach, the UI became much more consistent,
+because the DLS interpreter creates encodes layout rules.
+
+
+## Conclusions
 
 As physicist, I always try to explain and build system with a minimal
 set of rules and principles. Like nature is based on a few fundamental
@@ -387,4 +408,8 @@ professionals to provide the best value for customers**.
 
 [Bootstrap 3]: http://getbootstrap.com
 
-[craftsmanship]:http://manifesto.softwarecraftsmanship.org
+[mobx]: https://mobx.js.org
+
+[craftsmanship]: http://manifesto.softwarecraftsmanship.org
+
+[JVx]: https://en.wikipedia.org/wiki/JVx_(Framework)
