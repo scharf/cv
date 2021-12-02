@@ -298,9 +298,9 @@ with changing requirements. We also use [mobx] for state management.
 The key learning here is that web applications require a different
 set of (architectural) rules to be successful. 
 
-## Since early 2017: Java Framework and IDE for dialogs for a database application
+## Early 2017 till end 2019: Java Framework and IDE for dialogs for a database application
 
-Since January 2017 I am consulting (1-2 days a week) a team that has a large Oracle Forms
+From January 2017 till end of 2019 I was consulting (1-2 days a week) a team that has a large Oracle Forms
 application with lots of dialogs. The goal is to modernize the application and 
 re-write the fornt end in Java using the [JVx] UI framework. The Application has hundereds of dialogs and
 the team started writing them one by one using a UI builder that generates
