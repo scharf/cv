@@ -1,0 +1,8 @@
+*.pdf
+/junk
+/output
+/.idea
+/.metadata
+/.settings
+.project
+.tern-project

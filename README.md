@@ -297,6 +297,13 @@ a [craftsmanship] and
 **my passion is to create well crafted software with learning teams of professionals to provide the best value for
 customers**.
 
+------
+
+<sub>[This document is maintained on github]</sub>
+
+
+[This document is maintained on github]: https://github.com/scharf/cv/blob/main/README.md
+
 [OOP]: https://en.wikipedia.org/wiki/Object-oriented_programming
 
 [Scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
