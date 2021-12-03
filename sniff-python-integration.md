@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                
+```                                                                                                                                                                                                                                                                
 From: sch...@EMBL-Heidelberg.DE (Michael Scharf)
 Subject: Python and SNiFF+: browsing and debugging (was Re: Browsers, source editors, etc.)
 Date: 1995/06/23
@@ -8,7 +8,7 @@ distribution: world
 references: <9506220801.AA27803@kalle.teragon.ivab.se>
 organization: European Molecular Biology Lab.
 newsgroups: comp.lang.python
-
+```
 
 SUMMARY
 -------
@@ -296,9 +296,11 @@ Michael
 P.S.: Don't be surprised if my e-mail address will change in the
 near future to Michael_Sch...@TakeFive.co.at ...
 
+```
 --
  ___   _  _   ___   _    
 | __) | \/ | |   ) | |   Michael Scharf  Tel: +49 6221 387 305 FAX: 517
 | _)  |    | | -<  | |_  EMail: Michael.Sch...@EMBL-Heidelberg.de
 |___) |_||_| |___) |___) http://www.EMBL-Heidelberg.de/~scharf/
 
+```
